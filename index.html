@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Building A Button</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet"> </head>
+
+<body>
+    <h1>This button does nothing</h1>
+    <button id='btn' onclick='changeText()'>Click Me!</button>
+    <script>
+        function changeText() {
+            document.getElementById('btn').innerHTML = 'Just kidding!';
+        }
+    </script>
+</body>
+
+</html>
