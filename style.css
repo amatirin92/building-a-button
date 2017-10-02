@@ -1,6 +1,13 @@
 * {
     font-family: 'Encode Sans Expanded', sans-serif;
 }
+body {
+    background-color: #FFBAA0;
+}
+h1 {
+    text-align: center;
+    font-weight: 10px;
+}
 
 #btn {
     outline: none;
@@ -29,10 +36,12 @@
     top: 6px;
 }
 
-body {
-    background-color: #FFBAA0;
-}
-h1 {
-    text-align: center;
-    font-weight: 10px;
+.main {
+  position: absolute;
+  width: 600px;
+  height: 200px;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
 }

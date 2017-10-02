@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <title>Building A Button</title>
     <link href="style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet"> </head>
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet"> 
+</head>
 
 <body>
+   <div class='main'>
     <h1>This button does nothing</h1>
     <button id='btn' onclick='changeText()'>Click Me!</button>
+    </div>
     <script>
         function changeText() {
             document.getElementById('btn').innerHTML = 'Just kidding!';
