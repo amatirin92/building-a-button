@@ -24,14 +24,17 @@ h1 {
     padding: 25px 80px;
     margin: 0 auto;
     border-radius: 15px;
+    -webkit-box-shadow: 0 6px #d46c45;
     box-shadow: 0 6px #d46c45;
 }
 
 #btn:hover {
+    -webkit-box-shadow: 0 4px #d46c45;
     box-shadow: 0 4px #d46c45;
     top: 2px;
 }
 #btn:active {
+    -webkit-box-shadow: none;
     box-shadow: none;
     top: 6px;
 }
@@ -45,3 +48,4 @@ h1 {
   left: 50%;
   margin: -100px 0 0 -150px;
 }
+ 
